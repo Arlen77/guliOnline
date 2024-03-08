@@ -1,0 +1,17 @@
+server:
+  port: 8081
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 查看日志
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 12345678
+    url: jdbc:mysql://localhost:3306/onlineeducation?serverTimezone=GMT%2B8&useSSL=false&characterEncoding=utf-8
+  jackson:
+    date-format: yyyy-mm-dd HH:mm:ss
+    time-zone: GMT+8
+logging:
+  level:
+    root: info
